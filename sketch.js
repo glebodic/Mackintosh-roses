@@ -1,4 +1,6 @@
 
+// Author: Gwenaël Le Bodic
+// P5.js experiments with random generation of roses inspired from Charles Rennie Mackintosh roses
 
 function setup() {
   createCanvas(800, 600);
@@ -102,13 +104,4 @@ function drawPetal(radius) {
   endShape(CLOSE);
   pop() ;
   
-  /*
-  beginShape();
-curveVertex(84, 91);
-curveVertex(84, 91);
-curveVertex(68, 19);
-curveVertex(21, 17);
-curveVertex(32, 91);
-curveVertex(32, 91);
-endShape();*/
 }
